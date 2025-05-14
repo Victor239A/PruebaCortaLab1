@@ -36,60 +36,6 @@
 
 
 
-.header{
-    height: 90px;
-    width: 1440px;
-    flex-direction: column  ;
-   border-bottom: 1px solid #EDEDED;
-    display: grid;
-    grid-template-columns: 30% 45% 25%;
-    align-items: center;
-    
-}
-
-.titulo1{
-    color: #008ECC;
-}
-
-.caja3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.caja5{
-
-    border-radius: 10px;
-    width: 600px;
-    height: 48px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    
-}
-
-.caja6{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-   
-}
-
-
-.caja4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.caja7 {
-    padding-left: 9rem;
-}
-
 .marco3{
     
     height: 90px;
@@ -114,14 +60,79 @@
     align-items: center;
     padding: 2rem;
     padding-left: 6.5rem;
+    position: relative;
 }
 
 .rectangulo {
-
-    border-bottom: 400px solid #212844;
-    width: 75rem;
+    width: 1200px;
+    height: 350px;
+    background-color: #1d2341;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: white;
     align-items: center;
     border-radius: 16px;
+    position: relative;
+}
+  
+  .circulo {
+      top: 110px;
+      left: -55px;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    position: absolute; 
+   background-color: #F3F9FB;
+    color: #008ECC;
+}
 
-   
+.flecha {
+padding-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.circulo2 {
+    top: 110px;
+    left: 1140px;
+  width: 120px;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  position: absolute; 
+  background-color: #F3F9FB;
+  color: #008ECC;
+}
+
+.flecha2 {
+padding-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.textooo{
+    padding-top: 2rem;
+    font-family: HK Grotesk;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 3rem;
+    font-size: 2rem;
+}
+
+.reloj {
+    width: 20rem;
+    padding-right: 3rem;
+}
+
+.puntos {
+    padding-top: 4rem;
+    width: 7rem;
 }
