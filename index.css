@@ -90,10 +90,38 @@
     padding-left: 9rem;
 }
 
+.marco3{
+    
+    height: 90px;
+    width: 1440px;
+    border-bottom: 1px solid #EDEDED;
+    display: grid;
+    align-items: center;
+}
 
 
+.imagenes{
+    padding-left: 6.5rem;
+}
 
 
+.marco4{
+    
+    height: 400px;
+    width: 1440px;
+    border-bottom: 1px solid #EDEDED;
+    display: grid;
+    align-items: center;
+    padding: 2rem;
+    padding-left: 6.5rem;
+}
 
+.rectangulo {
 
+    border-bottom: 400px solid #212844;
+    width: 75rem;
+    align-items: center;
+    border-radius: 16px;
 
+   
+}
