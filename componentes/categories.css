@@ -1,0 +1,89 @@
+.marco6{
+    
+    height: 402px;
+    width: 1440px;
+    border-bottom: 1px solid #EDEDED;
+   
+}
+
+
+.contenedor-categorias {
+    height: 173px;
+    width: 95%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 7rem;
+}
+
+.categoria {
+    width: 133px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.categoria-icono {
+    width: 132px;
+    height: 132px;
+    background-color: #F5F5F5;
+    border-radius: 100px;
+    box-shadow: 2px 2px 10px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoria-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 16px;
+    color: #222222;
+}
+
+.categoria-icono2 {
+    width: 132px;
+    height: 132px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.categoria-imagen3 {
+    width: 52px;
+    height: 98px;
+
+}
+
+.categoria-imagen4 {
+    width: 55px;
+    height: 130px;
+}
+
+.categoria-imagen5 {
+    width: 124px;
+    height: 124px;
+    border-radius: 100px;
+}
+
+.categoria-imagen6 {
+    width: 112px;
+    height: 112px;
+}
+
+.categoria-imagen7 {
+    width: 98px;
+    height: 98px;
+    border-radius: 100px;
+}
+
+.categoria-imagen8 {
+    width: 124px;
+    height: 124px;
+    border-radius: 100px;
+}
