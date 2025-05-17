@@ -51,88 +51,26 @@
 }
 
 
-.marco4{
-    
-    height: 400px;
-    width: 1440px;
-    border-bottom: 1px solid #EDEDED;
-    display: grid;
-    align-items: center;
-    padding: 2rem;
-    padding-left: 6.5rem;
-    position: relative;
-}
-
-.rectangulo {
-    width: 1200px;
-    height: 350px;
-    background-color: #1d2341;
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-    color: white;
-    align-items: center;
-    border-radius: 16px;
-    position: relative;
-}
-  
-  .circulo {
-      top: 110px;
-      left: -55px;
-    width: 120px;
-    height: 120px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 100px;
-    position: absolute; 
-   background-color: #F3F9FB;
-    color: #008ECC;
-}
-
-.flecha {
-padding-top: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-}
-.circulo2 {
-    top: 110px;
-    left: 1140px;
-  width: 120px;
-  height: 120px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 100px;
-  position: absolute; 
-  background-color: #F3F9FB;
-  color: #008ECC;
-}
-
-.flecha2 {
-padding-top: 2.5rem;
+  .grabh {
+    padding-top: 8.95rem;
+  font-size: 1.5rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
-
-
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1rem;
 }
 
-.textooo{
-    padding-top: 2rem;
-    font-family: HK Grotesk;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    padding-left: 3rem;
-    font-size: 2rem;
+.grabt {
+  border-bottom: 2px solid #00aaff;
+  padding-bottom: 4px;
+  font-size: 1.7rem;
 }
 
-.reloj {
-    width: 20rem;
-    padding-right: 3rem;
+.grabt span {
+    color: #00aaff; 
 }
 
-.puntos {
-    padding-top: 4rem;
-    width: 7rem;
+.view-all {
+    font-size: 1.3rem;
+   
 }

@@ -1,0 +1,117 @@
+
+.marco5{
+    
+    height: 539px;
+    width: 1440px;
+    border-bottom: 1px solid #EDEDED;
+   
+}
+
+.contenedor-productos {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.producto {
+    width: 215px;
+    height: 300px;
+    border-radius: 16px;
+    border: 1px solid #EDEDED;
+    display: grid;
+    grid-template-rows: 60% 30% 10%;
+    position: relative;
+}
+
+.producto2{
+    box-shadow: 1px 1px 7px gray;
+    border: 1px solid #008ECC;
+}
+
+.producto-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    position: relative;
+}
+
+.producto-descuento {
+    position: absolute;
+    width: 51px;
+    height: 53px;
+    font-size: 16px;
+    left: 163px;
+    top: -1px;
+    background-color: #008ECC;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.producto-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.producto-precios {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.precio-actual {
+    font-size: 16px;
+    color: #222222;
+}
+
+.precio-anterior {
+    text-decoration: line-through;
+}
+
+.producto-precio {
+    border-top: 1px solid #EDEDED;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.producto-ahorro {
+    color: #249B3E;
+}
+.grabh1 {
+    padding-top: 8.95rem;
+    padding-left: 7.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.grabt1 {
+  border-bottom: 2px solid #00aaff;
+  padding-bottom: 4px;
+  font-size: 1.7rem;
+}
+
+.grabt1 span {
+    color: #00aaff; 
+}
+
+.view-all1 {
+    padding-right: 2rem;
+    font-size: 1.3rem;
+   
+}

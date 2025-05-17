@@ -1,0 +1,147 @@
+
+.marco4{
+    
+    height: 571px;
+    width: 1440px;
+    border-bottom: 1px solid #EDEDED;
+    display: grid;
+    align-items: center;
+    padding: 2rem;
+    padding-left: 7.5rem;
+    position: relative;
+}
+
+.rectangulo {
+    width: 1200px;
+    height: 350px;
+    background-color: #1d2341;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: white;
+    align-items: center;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+   
+}
+  
+  .circulo {
+      top: 140px;
+      left: 60px;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    position: absolute; 
+   background-color: #F3F9FB;
+    color: #008ECC;
+    z-index: 9;
+}
+
+.flecha {
+padding-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.circulo2 {
+    top: 140px;
+    left: 1260px;
+  width: 120px;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  position: absolute; 
+  background-color: #F3F9FB;
+  color: #008ECC;
+  z-index: 9;
+
+}
+
+.flecha2 {
+padding-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.textooo{
+    top: 3rem;
+    font-family: HK Grotesk;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 4rem;
+    font-size: 1.8rem;
+    position: absolute;
+    z-index: 10;
+}
+
+.reloj {
+    width: 17rem;
+   right: 6rem;
+    position: absolute;
+    z-index: 1; 
+}
+
+.puntos {
+  position: absolute;
+    padding-top: 15rem;
+    width: 7rem;
+}
+
+.circuloo {
+    position: absolute;
+    border-radius: 100%;
+    background-color: #3C466B;
+    opacity: 0.5;
+
+  }
+  
+  .circuloo1 {
+    width: 450px;
+    height: 300px;
+    top: -145px;
+    left: 730px;
+   
+
+  }
+  
+
+  .circuloo2 {
+    width: 150px;
+    height: 150px;
+    top: 270px;
+    right: 170px;
+
+  }
+
+
+
+  .eclipse27 {
+    padding-left: 43.65rem;
+    padding-bottom: 11.8rem;
+    }
+    
+    .eclipse29 {
+    position: relative;
+    left: -30.2rem;
+    padding-bottom: 10.8rem;
+    }
+    
+    .eclipse28 {
+      position: absolute;
+      top: 18rem;
+      left: 50rem;
+    }
+    .eclipse30 {
+      position: absolute;
+      top: 17.5rem;
+      left: 49rem;
+    }
