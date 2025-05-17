@@ -1,0 +1,70 @@
+.contenedor-alimentos {
+    display: flex;
+    height: 300px;
+    margin-top: 50px;
+    gap: 30px;
+    margin-bottom: 5.5rem;
+    padding-left: 5rem;
+}
+
+.imagen-alimento-canasta {
+    width: 187px;
+    height: 187px;
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    border: 1px solid #008ECC;
+    box-shadow: 1px 1px 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-canasta {
+    width: 183px;
+    height: 128px;
+}
+
+.tarjeta-alimento {
+    display: grid;
+    grid-template-rows: 70% 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-alimento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.titulo-alimento {
+    height: 20px;
+    width: 100%px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.descuento-alimento {
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-alimento {
+    width: 187px;
+    height: 187px;
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-bolsa {
+    width: 145px;
+    height: 164px;
+}

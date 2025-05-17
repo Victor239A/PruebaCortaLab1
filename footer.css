@@ -1,0 +1,110 @@
+.marco8 {
+    height: 470px;
+    width: 1440px;
+   border-bottom: 1px solid #EDEDED;
+}
+
+.footer {
+    background-color: #028cc8;
+    color: white;
+    padding: 50px 20px 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .footer-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-titulo {
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 1rem;
+  }
+  
+  .seccion-subtitulo {
+    padding-top: 1.5rem;
+   font-size: 1.7rem;
+    margin: 20px 0 10px;
+    padding-bottom: 0.5rem;
+    
+   
+  }
+  
+  .seccion-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+ 
+  }
+  
+  
+  
+  
+  .footer-seccion {
+    flex: 10 1 250px;
+    margin: 20px;
+  }
+  
+  .footer-seccion ul {
+      padding: 0rem;
+      padding-top: 2rem;
+  }
+  
+  .footer-seccion ul li {
+  
+    margin-bottom: 30px;
+  }
+  
+  .contacto-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  
+  .contacto-item .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+  }
+  
+
+  
+  .app-botones img {
+    padding-bottom: 2rem;
+    width: 140px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  
+ 
+
+  .footer-circulo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: auto;
+    z-index: 0;
+   
+  }
