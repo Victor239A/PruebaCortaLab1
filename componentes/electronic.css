@@ -5,18 +5,17 @@
     border-bottom: 1px solid #EDEDED;
    
 }
-
 .CajaElectro{
- 
+    overflow: hidden;
     height: 217px;
  margin-top: 50px;
     gap: 15px;
     display: flex;
     flex-direction: row;
-    padding-left: 8rem;
+    padding-left: 7.3rem;
+   
     
 }
-
 .anuncio1{
 width:389px ;
 height:215px;
@@ -26,8 +25,6 @@ display: flex;
 
 
 }
-
-
 .marca1{
     background-color: #494949;
     width: 99px;
@@ -39,16 +36,12 @@ display: flex;
     justify-content: center;
     color: #FFFFFF;
 }
-
-
-
 .descuento1{
     color: #FFFFFF;
     font-size: 24px;
     width: 100%px;
     height: 30px;
 }
-
 .marcasC2{
     display: flex;
     flex-direction: column;
@@ -85,33 +78,32 @@ right: -0.7rem;
     
     
     .marca2{
-        background-color: #F6DE8D;
-        width: 99px;
-        height: 35px;
-        font-size: 14px;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
+  background-color: #F6DE8D;
+  width: 99px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
         justify-content: center;
         color: #222222;
     }
     
+
+.descuento2{
+    color: #222222;
+    font-size: 24px;
+    width: 190px;
+    height: 30px;
+}
     
-    
-    .descuento2{
-        color: #222222;
-        font-size: 24px;
-        width: 190px;
-        height: 30px;
-    }
-    
-    .marcasC{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-       
-        width:389px;
-        padding-left: 20px;
+.marcasC{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    width:389px;
+    padding-left: 20px;
         
         justify-content: center;
         
@@ -124,11 +116,6 @@ right: -0.7rem;
         z-index: 9;
     
     }
-
-
-
-
-
 
 .anuncio3{
         width:389px ;
@@ -152,9 +139,7 @@ right: -0.7rem;
             justify-content: center;
             color: #222222;
         }
-        
-        
-        
+              
  .descuento2{
             color: #222222;
             font-size: 24px;
@@ -172,10 +157,6 @@ right: -0.7rem;
             justify-content: center;
             
         }
-
-
-
-
 .cajaC2{
             width: 114px;
             height: 8px;
@@ -195,7 +176,7 @@ right: -0.7rem;
 
  .group49 {
     position: absolute;
-    right: 72.2rem;
+    right: 72.95rem;
     width: 11rem;
     height: 11rem;
     z-index: 1;
@@ -203,7 +184,7 @@ right: -0.7rem;
 
  .group49-2 {
     position: absolute;
-    right: 47rem;
+    right: 47.7rem;
     width: 12rem;
     height: 12rem;
     z-index: 1;
@@ -211,7 +192,7 @@ right: -0.7rem;
 
  .group49-3 {
     position: absolute;
-    right: 21.7rem;
+    right: 22.5rem;
     width: 12rem;
     height: 12rem;
     z-index: 1;
